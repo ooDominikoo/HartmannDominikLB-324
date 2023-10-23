@@ -1,4 +1,4 @@
-# LB 324
+# Hartmann Dominik - LB 324
 
 ## Aufgabe 2
 Erklären Sie hier, wie man `pre-commit` installiert.
