@@ -35,4 +35,4 @@ Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übe
 10. Sobald dieser Link ausgeführt wird, kann man sich mit den vorhin gezeigtem Password einloggen.
 ![image](https://github.com/ooDominikoo/HartmannDominikLB-324/assets/104886373/04b32dde-a642-41df-9950-037cb3113799)
 
-11. Link zum Azure Website: https://hartmanndominiklb324.azurewebsites.net/
+11. Link zur Azure Website: https://hartmanndominiklb324.azurewebsites.net/
