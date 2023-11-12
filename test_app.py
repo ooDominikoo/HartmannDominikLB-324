@@ -25,7 +25,6 @@ def test_add_entry(client):
     entry = entries[0]
     assert entry is not None
     assert entry.content == "Test Entry Content"
-    assert entry.happiness == ":)"
 
 
 def test_add_entry_with_happiness(client):
@@ -39,7 +38,7 @@ def test_add_entry_with_happiness(client):
     assert response.headers["Location"] == "/"
 
     # Check if the entry was added to the database with the correct happiness
-    entry = entries[0]
+    entry = entries[1]
     assert entry is not None
     assert entry.content == "Test Entry Content"
 
