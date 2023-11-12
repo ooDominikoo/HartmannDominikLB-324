@@ -1,4 +1,4 @@
-![image](https://github.com/ooDominikoo/HartmannDominikLB-324/assets/104886373/4d868f4e-8d96-4aaa-ac15-b294d6e738df)# Hartmann Dominik - LB 324
+# Hartmann Dominik - LB 324
 
 ## Starten der Applikation
 Um die Applikation zu starten, müssen folgenden Befehle eingegeben werden.
