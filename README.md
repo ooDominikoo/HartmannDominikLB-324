@@ -8,6 +8,13 @@ Um die Applikation zu starten, müssen folgenden Befehle eingegeben werden.
 ## Aufgabe 2
 Erklären Sie hier, wie man `pre-commit` installiert.
 
+1. Zuerst wird im Terminal `pre-commit install` eingegeben, um es zu installieren
+2. File namens '.pre-commit-config.yaml' erstellen
+  3. in diesem File muss auf Pytest verwiesen werden
+4. Um es auf Push zu testen, muss `pre-commit install --hook-type pre-commit --hook-type pre-push` installiert werden.
+5. Im File '.pre-commit-config.yaml' muss für den 'pytest-check' 'stages: [push]' stehen, um den Test bei push auszuführen.
+6. Um das Programm, die Tests auszuführen, muss `git add .`, `git commit -m "Mitteilung"` und `git push origin precommit` eingegeben werden.
+
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
 
